@@ -1,0 +1,29 @@
+# Environnement Python
+
+.venv/
+venv/
+**pycache**/
+*.pyc
+
+# Données sources et données traitées
+
+data/raw/
+data/processed/
+data/exports/
+
+# Fichiers temporaires
+
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Fichiers volumineux
+
+*.mp4
+*.pbix
+
+# Variables d'environnement et identifiants
+.env
+.env.*
+!.env.example
